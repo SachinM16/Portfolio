@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 18px;
+    color: #555;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* General Section Styling */
+.about, .work-experience, .education, .skills, .hackathons, .projects {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Work Experience & Education */
+.job, .edu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.company-logo, .edu-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.duration {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Skills Section */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill-tags span {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Hackathons & Projects Section */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.item-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.source-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin: auto;
+    gap: 15px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.navbar a img {
+    width: 20px; /* Adjust size based on your icons */
+    height: 20px;
+}
+
+.navbar a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps the text color consistent */
+}
+
+/* Certificates Section */
+.certificates {
+    margin-top: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-intro {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-item:hover {
+    transform: scale(1.02);
+}
+
+.item-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.item-description {
+    font-size: 14px;
+    color: #444;
+}
+
+.source-btn {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.source-btn:hover {
+    background-color: #333;
+}
