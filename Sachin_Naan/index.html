@@ -15,8 +15,6 @@
                 <p class="role">Junior Web3 Developer, Smart Contract writer & UI/UX Developer.</p>
             </div>
             <img src="assets/SACHIN M - 2322KC44.jpg" alt="Sachin's Profile Picture" class="profile-pic"> 
-            <!-- Theme Toggle Button -->
-            <button id="theme-toggle">🌙</button>
         </div>
 
         <!-- About Section -->
@@ -194,30 +192,5 @@
                 </div>
         </footer>
     </div>
-
-    <!-- JavaScript for Theme Toggle -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const themeToggle = document.getElementById("theme-toggle");
-            const body = document.body;
-
-            // Check local storage for theme preference
-            if (localStorage.getItem("theme") === "dark") {
-                body.classList.add("dark-mode");
-            }
-
-            // Toggle theme on click
-            themeToggle.addEventListener("click", function () {
-                body.classList.toggle("dark-mode");
-
-                // Save preference in local storage
-                if (body.classList.contains("dark-mode")) {
-                    localStorage.setItem("theme", "dark");
-                } else {
-                    localStorage.setItem("theme", "light");
-                }
-            });
-        });
-    </script>
 </body>
 </html>
